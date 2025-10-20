@@ -4,26 +4,30 @@
 
 ```bash
 python -m venv venv
+```
 
-▶️ Attiva ambiente
-Windows (PowerShell):
+### ▶️ Attiva ambiente
 
-powershell
+**Windows (PowerShell):**
+```powershell
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-.\venv\Scripts\activate
+.env\Scriptsctivate
+```
 
-2️⃣ Installa librerie richieste
+**macOS / Linux:**
+```bash
+source venv/bin/activate
+```
+
+## 2️⃣ Installa librerie richieste
+
+```bash
 pip install -r 00_setup_environment/requirements.txt
+```
 
-3️⃣ Test connessione
+## 3️⃣ Test connessione
 Connetti il PC al Wi-Fi del drone (TELLO-XXXXXX) e lancia:
 
+```bash
 python 01_connect_drone/connect_tello.py
-
-### 📄 `00_setup_environment/requirements.txt`
-
-```txt
-djitellopy>=2.5.0
-opencv-python
-numpy
-keyboard
+```
