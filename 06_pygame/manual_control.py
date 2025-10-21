@@ -5,7 +5,6 @@ import numpy as np
 import time
 
 # Speed of the drone
-# 无人机的速度
 S = 60
 # Frames per second of the pygame window display
 # A low number also results in input lag, as input information is processed once per frame.
