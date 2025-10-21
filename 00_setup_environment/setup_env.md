@@ -11,7 +11,7 @@ python -m venv venv
 **Windows (PowerShell):**
 ```powershell
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-.env\Scriptsctivate
+.\env\Scripts\activate
 ```
 
 **macOS / Linux:**
