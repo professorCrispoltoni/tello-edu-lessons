@@ -40,9 +40,10 @@ Assicurati di avere installato:
 
 ```bash
 pip install djitellopy opencv-python pygame numpy
-🚀 Avvio del programma
-Accendi il drone DJI Tello.
 ```
+
+## 🚀 Avvio del programma
+Accendi il drone DJI Tello.
 
 Connettiti alla rete Wi-Fi del drone (TELLO-XXXXXX).
 
