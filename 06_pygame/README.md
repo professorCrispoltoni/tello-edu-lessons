@@ -69,11 +69,12 @@ Usa la tastiera per controllare il volo!
 L’uso di Pygame è una scelta strategica per rendere il controllo più fluido e semplice:
 
 | Motivo	| Descrizione |
-| Gestione input precisa |	Pygame rileva i tasti premuti e rilasciati in modo affidabile e continuo. |
-| Visualizzazione video |	Permette di mostrare il flusso video del drone in una finestra interattiva. |
-| Timer stabile (FPS) |	Garantisce aggiornamenti regolari dei comandi (es. 120 volte al secondo). |
-| Integrazione GUI |	Tutto (video + input + testo) in una sola finestra, senza librerie aggiuntive. |
-| Portabilità	| Funziona su Windows, macOS e Linux senza configurazioni complesse. |
+|-------|--------|
+| **Gestione input precisa** |	Pygame rileva i tasti premuti e rilasciati in modo affidabile e continuo. |
+| **Visualizzazione video** |	Permette di mostrare il flusso video del drone in una finestra interattiva. |
+| **Timer stabile (FPS)** |	Garantisce aggiornamenti regolari dei comandi (es. 120 volte al secondo). |
+| **Integrazione GUI** |	Tutto (video + input + testo) in una sola finestra, senza librerie aggiuntive. |
+| **Portabilità**	| Funziona su Windows, macOS e Linux senza configurazioni complesse. |
 
 ## 🧰 Esempio di uscita video
 Durante il volo, nella finestra Pygame viene mostrato:
