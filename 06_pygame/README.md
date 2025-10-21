@@ -56,7 +56,7 @@ Si aprirà una finestra con il video del drone.
 
 Usa la tastiera per controllare il volo!
 
-🧩 Struttura del progetto
+## 🧩 Struttura del progetto
 - FrontEnd: classe principale che gestisce video, input e comandi.
 
 - run(): ciclo principale del programma (loop video e comandi).
@@ -65,17 +65,17 @@ Usa la tastiera per controllare il volo!
 
 - update(): invia i comandi di movimento al drone a intervalli regolari.
 
-🧠 Perché usare Pygame?
+## 🧠 Perché usare Pygame?
 L’uso di Pygame è una scelta strategica per rendere il controllo più fluido e semplice:
 
-Motivo	Descrizione
-- Gestione input precisa	Pygame rileva i tasti premuti e rilasciati in modo affidabile e continuo.
-- Visualizzazione video	Permette di mostrare il flusso video del drone in una finestra interattiva.
-- Timer stabile (FPS)	Garantisce aggiornamenti regolari dei comandi (es. 120 volte al secondo).
-- Integrazione GUI	Tutto (video + input + testo) in una sola finestra, senza librerie aggiuntive.
-- Portabilità	Funziona su Windows, macOS e Linux senza configurazioni complesse.
+| Motivo	| Descrizione |
+| Gestione input precisa |	Pygame rileva i tasti premuti e rilasciati in modo affidabile e continuo. |
+| Visualizzazione video |	Permette di mostrare il flusso video del drone in una finestra interattiva. |
+| Timer stabile (FPS) |	Garantisce aggiornamenti regolari dei comandi (es. 120 volte al secondo). |
+| Integrazione GUI |	Tutto (video + input + testo) in una sola finestra, senza librerie aggiuntive. |
+| Portabilità	| Funziona su Windows, macOS e Linux senza configurazioni complesse. |
 
-🧰 Esempio di uscita video
+## 🧰 Esempio di uscita video
 Durante il volo, nella finestra Pygame viene mostrato:
 
 - Il flusso video del drone.
