@@ -85,7 +85,8 @@ Durante il volo, nella finestra Pygame viene mostrato:
 
 - L’immagine ruotata correttamente per la visualizzazione.
 
-🪄 Suggerimenti
+## 🪄 Suggerimenti
+
 Evita di chiudere il programma forzatamente: usa ESC per uscire in sicurezza.
 
 Se non vedi il video, prova a eseguire prima:
