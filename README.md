@@ -29,9 +29,12 @@ Dalla connessione di base fino alla creazione di una **GUI interattiva con Tkint
 ## 🚀 Avvio rapido
 
 ```bash
-git clone https://github.com/<tuo-utente>/tello-edu-lessons.git
+git clone https://github.com/professorCrispoltoni/tello-edu-lessons
+
 cd tello-edu-lessons
 python -m venv venv
 .\venv\Scripts\activate     # su Windows
+
 pip install -r 00_setup_environment/requirements.txt
+
 python 01_connect_drone/connect_tello.py
