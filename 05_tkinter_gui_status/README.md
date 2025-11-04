@@ -7,3 +7,5 @@ Creare una GUI con aggiornamento periodico dello stato del drone Tello EDU.
 ```bash
 python tello_gui_status.py
 ```
+
+![figura 1](../images/gui.png)
