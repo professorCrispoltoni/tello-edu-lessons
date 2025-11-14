@@ -68,10 +68,8 @@ Modify the output message format to improve clarity.
 ## 📝 Student Exercises
 - Modify the script to print the drone’s temperature in addition to the battery level.
 
-- Add error handling: display a friendly message if the drone is not connected.
+- Add error handling: display a friendly message if the drone is not connected (try-excpept-finally).
 
 - Research and try to print other telemetry data available through the djitellopy library, such as height or speed.
-
-- Experiment with connecting and disconnecting the drone multiple times in a single script run. What behaviors do you observe?
 
 - Write a short explanation in your own words about why it’s important to call tello.end() at the end of your script.
