@@ -12,7 +12,7 @@ Your computer is connected to the drone's Wi-Fi network (name similar to TELLO-X
 Python is installed (version 3.7 or higher recommended).
 
 The djitellopy package is installed. If not, install it with:
-```bash
+```
 bash
 pip install djitellopy
 ```
@@ -46,7 +46,7 @@ Open a terminal in the folder where connect_tello.py is located.
 
 Run the command:
 
-```bash
+```
 python connect_tello.py
 ```
 The terminal should display the drone’s battery percentage.
