@@ -1,9 +1,67 @@
-# Lezione 1 – Connessione al Drone
+# Lesson 1 – Connecting to the Tello EDU Drone
+## 🎯 Objective
+Learn how to connect to the Ryze Tello EDU drone using Python and the djitellopy library. Retrieve basic information such as the battery level to verify that communication works correctly.
 
-## 🎯 Obiettivo
-Imparare a connettersi al drone **Ryze Tello EDU** e leggere informazioni di base come la batteria.
+## 📦 Prerequisites
+Before running the script, make sure that:
 
-## ▶️ Esecuzione
+The drone is powered on and ready to connect (blue LED solid or blinking).
+
+Your computer is connected to the drone's Wi-Fi network (name similar to TELLO-XXXXXX).
+
+Python is installed (version 3.7 or higher recommended).
+
+The djitellopy package is installed. If not, install it with:
+```bash
+bash
+pip install djitellopy
+```
+
+## 📝 Example Code
+```bash
+from djitellopy import Tello
+
+tello = Tello()
+tello.connect()
+print(f"🔋 Battery: {tello.get_battery()}%")
+tello.end()
+```
+
+This script performs the following actions:
+
+Creates a Tello object.
+
+Connects to the drone.
+
+Reads and prints the battery level.
+
+Closes the connection safely.
+
+## ▶️ How to Run the Script
+Turn on the Tello drone.
+
+Connect your computer to the drone's Wi-Fi network.
+
+Open a terminal in the folder where connect_tello.py is located.
+
+Run the command:
+
 ```bash
 python connect_tello.py
 ```
+The terminal should display the drone’s battery percentage.
+
+## 🛠️ Common Issues and Solutions
+Connection error:
+Ensure your computer is connected to the drone’s Wi-Fi and that no other device is connected at the same time.
+
+ImportError for djitellopy:
+Check if the library is installed using pip show djitellopy.
+
+## 🔎 Lesson Tips
+Try printing other available information, such as temperature, height, or velocity.
+
+Modify the output message format to improve clarity.
+
+## 📚 Useful Links
+[djitellopy Documentation](https://djitellopy.readthedocs.io/en/latest/tello/)
