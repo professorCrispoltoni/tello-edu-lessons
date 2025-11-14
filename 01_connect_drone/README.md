@@ -18,7 +18,7 @@ pip install djitellopy
 ```
 
 ## 📝 Example Code
-```bash
+```
 from djitellopy import Tello
 
 tello = Tello()
