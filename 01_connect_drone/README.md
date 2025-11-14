@@ -28,13 +28,13 @@ tello.end()
 
 This script performs the following actions:
 
-Creates a Tello object.
+- Creates a Tello object.
 
-Connects to the drone.
+- Connects to the drone.
 
-Reads and prints the battery level.
+- Reads and prints the battery level.
 
-Closes the connection safely.
+- Closes the connection safely.
 
 ## ▶️ How to Run the Script
 Turn on the Tello drone.
