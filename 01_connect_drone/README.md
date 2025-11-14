@@ -13,7 +13,6 @@ Python is installed (version 3.7 or higher recommended).
 
 The djitellopy package is installed. If not, install it with:
 ```
-bash
 pip install djitellopy
 ```
 
