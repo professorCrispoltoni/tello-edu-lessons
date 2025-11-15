@@ -38,3 +38,7 @@ python -m venv venv
 pip install -r 00_setup_environment/requirements.txt
 
 python 01_connect_drone/connect_tello.py
+```
+
+## LINK TO STUDENTS PRESENTATION
+https://www.canva.com/design/DAGXezYUo8o/1nS_OmGoarM2fjtSQ6b0uw/edit
