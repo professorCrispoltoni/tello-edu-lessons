@@ -41,4 +41,4 @@ python 01_connect_drone/connect_tello.py
 ```
 
 ## LINK TO STUDENTS PRESENTATION
-https://www.canva.com/design/DAGXezYUo8o/1nS_OmGoarM2fjtSQ6b0uw/edit
+[LINK](https://www.canva.com/design/DAGXezYUo8o/3FxIae7Y98mKMiZxICnY_w/view?utm_content=DAGXezYUo8o&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha00cf3a7c9)
