@@ -16,7 +16,7 @@ Dalla connessione di base fino alla creazione di una **GUI interattiva con Tkint
 | [03_keyboard_control](03_keyboard_control) | Controllo via tastiera |
 | [04_tkinter_gui](04_tkinter_gui) | GUI base con pulsanti Tkinter |
 | [05_tkinter_gui_status](05_tkinter_gui_status) | GUI avanzata con feedback di stato |
-
+| [06_Tello_Camera](06_Tello_Camera) | Controllo del flusso video del drone |
 ---
 
 ## ⚙️ Requisiti
