@@ -1,4 +1,4 @@
-# Tello Drone Control with Live Video Streaming and Person Detection using YOLOv8
+# Tello Drone Gui with Live Streaming and Person Detection using YOLOv8
 
 ## Project Description
 
@@ -46,4 +46,5 @@ This integration provides an interactive drone control experience enhanced by AI
 
 - [YOLOv8 - Ultralytics Official](https://ultralytics.com/)
 - [DJITelloPy - Tello Drone Python SDK](https://github.com/damiafuentes/DJITelloPy)
+- [Dataset](https://docs.ultralytics.com/it/datasets/detect/#supported-dataset-formats)
 
